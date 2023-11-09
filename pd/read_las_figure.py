@@ -29,7 +29,7 @@ for well in range(len(name)):
         axs[i-1].set_title(str(Keys[i]))
         fig.tight_layout()
     fig.savefig('D:\\ласы 227 скв Норвгеии\\планшеты\\' + name[well] + '.png',
-                orientation='landscape')
+                orientation='landscape')   # Указать путь сохранения файлов
     plt.clf()
 
 
